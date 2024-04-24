@@ -11,7 +11,6 @@ namespace Algorithms
     {
         static void Main(string[] args)
         {
-
             BinarySearch.BinarySearchAlgorithm();
         }
     }

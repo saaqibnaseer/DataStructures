@@ -6,6 +6,7 @@ namespace SearchingAlgorithms
     public class BinarySearch
     {
         // Implemented an extension method on List Class to calculate index of the given element
+        // Time Complexity : O(log n)
         public static void BinarySearchAlgorithm()
         {
             // List should be sorted for binary search to be perfomed.
@@ -13,7 +14,6 @@ namespace SearchingAlgorithms
 
             Console.WriteLine(sortedList.FindIndexInSorted(1));
             Console.WriteLine(sortedList.FindIndexInSorted(4));
-
             Console.WriteLine(sortedList.FindIndexInSorted(15));
 
             Console.ReadKey();

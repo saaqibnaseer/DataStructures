@@ -6,21 +6,32 @@ class Program
     static void Main()
     {
 
-        SinglyLinkedList<string> customSinglyLinkedList = new SinglyLinkedList<string>();
 
-        customSinglyLinkedList.AddToFront("a");
-        customSinglyLinkedList.AddToFront("b");
-        customSinglyLinkedList.AddToFront("c");
-        customSinglyLinkedList.AddToEnd("d");
-        customSinglyLinkedList.AddToEnd("e");
 
-        foreach (string s in customSinglyLinkedList)
-        {
-            Console.WriteLine(s);
-        }
+        #region Singly Linked List
+        /*  // Custom Singly Linked List
+       SinglyLinkedList<string> singlyList = new SinglyLinkedList<string>();
 
-        // Console.WriteLine(FibonacciSeries.FindNthFibonacciTerm(10));
+       singlyList.AddToFront("a");
+       singlyList.AddToFront("b");
+       singlyList.AddToFront("c");
+       singlyList.AddToEnd("d");
+       singlyList.AddToEnd("e");
+       singlyList.Remove("b");
 
+       var arr = new string[7];
+       singlyList.CopyTo(arr, 2);
+
+       foreach (string s in singlyList)
+       {
+           Console.WriteLine(s);
+       }
+
+       //Console.WriteLine($"Contains b: " + singlyList.Contains("b"));
+       //Console.WriteLine($"Contains b: " + singlyList.Contains("c")); */
+        #endregion
+
+        //Console.WriteLine(FibonacciSeries.FindNthFibonacciTerm(10));
         //Console.WriteLine(TaylorSeries.RecursiveCall(3, 10));
 
         //Recursion.Recursion.SimpleRecursiveFunction(10);

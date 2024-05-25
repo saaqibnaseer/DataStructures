@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures", "DataStruc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recursion", "..\Recursion\Recursion.csproj", "{DDAFDDEB-860C-4194-8DBD-572D2C73360B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchingAlgorithms", "..\SearchingAlgorithms\SearchingAlgorithms.csproj", "{20A1DFEF-0EF7-4D6C-B598-9993D03AAF99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchingAlgorithms", "..\SearchingAlgorithms\SearchingAlgorithms.csproj", "{20A1DFEF-0EF7-4D6C-B598-9993D03AAF99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms", "..\Algorithms\Algorithms.csproj", "{416C42AC-3DDB-49DF-B9A0-352A5FB35E7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms", "..\Algorithms\Algorithms.csproj", "{416C42AC-3DDB-49DF-B9A0-352A5FB35E7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayExercies", "..\ArrayExercies\ArrayExercies.csproj", "{A5716B12-148A-4EA8-86DB-FDDCCBEFD851}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{416C42AC-3DDB-49DF-B9A0-352A5FB35E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{416C42AC-3DDB-49DF-B9A0-352A5FB35E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{416C42AC-3DDB-49DF-B9A0-352A5FB35E7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5716B12-148A-4EA8-86DB-FDDCCBEFD851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5716B12-148A-4EA8-86DB-FDDCCBEFD851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5716B12-148A-4EA8-86DB-FDDCCBEFD851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5716B12-148A-4EA8-86DB-FDDCCBEFD851}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

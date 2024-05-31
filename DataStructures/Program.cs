@@ -1,10 +1,15 @@
 ﻿using DataStructures.LinkedList;
+using DataStructures.Strings;
 using Recursion;
 class Program
 {
     // Main Method 
     static void Main()
     {
+        #region Strings
+
+        StringExercise.ConvertStringToNumber("123456789");
+        #endregion
 
 
 
